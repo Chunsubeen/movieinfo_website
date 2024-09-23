@@ -1,0 +1,25 @@
+/* 페이지 전체 레이아웃 */
+.not-found-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+}
+
+/* 404 큰 글자 스타일 */
+.not-found-title {
+    font-size: 144px;
+    font-weight: bold;
+    color: #000;
+    margin: 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Page not found 텍스트 스타일 */
+.not-found-text {
+    font-size: 24px;
+    color: #666;
+    margin-top: 10px;
+}
