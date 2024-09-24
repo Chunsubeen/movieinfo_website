@@ -1,0 +1,29 @@
+.carousel-container{
+    overflow: hidden;
+    height:440px;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+.margin{
+    margin:30px;
+}
+
+@media screen and (max-width: 768px) {
+    .carousel-container {
+        height: auto;
+        /* 모바일 화면에서는 높이를 자동으로 조정 */
+        overflow: visible;
+    }
+
+    /* 영화 슬라이드 간격 조정 */
+    .movie-slider.p-1 {
+        padding: 5px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+}
